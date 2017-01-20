@@ -1484,7 +1484,7 @@ form#newsletter input[type=submit] {
 @media only screen and (min-width: 960px) {
 	
 	header {
-		height: 64px;
+		/*height: 64px;*/
 	}
 	
 	#wrapper {
@@ -1544,4 +1544,30 @@ form#newsletter input[type=submit] {
 	}
 	
 }
-	
+
+
+
+/*
+============================================================================================
+						MY EXTRA STYLES
+============================================================================================
+*/
+.logo {
+	max-width: 160px;
+	display: inline-block
+}
+
+.topNavBar {
+    float: right;
+    display: inline-block;
+    margin-top: 104px;	
+}
+
+.topNavBar p{
+	padding: 20;
+	text-align: center;
+	width: 500px;
+  background-color: lightblue;
+  margin: 0;
+}
+
