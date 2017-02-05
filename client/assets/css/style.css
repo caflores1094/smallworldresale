@@ -1571,3 +1571,22 @@ form#newsletter input[type=submit] {
   margin: 0;
 }
 
+.followFooter {
+	margin-left: 50px;
+}
+
+#instafeed {
+	text-align: left;
+}
+
+#instafeed a{
+	border-radius: 10px;
+}
+#instafeed a img{
+	width: 23%;
+	padding: 0px 1% 2% 1%;
+}
+
+
+
+
