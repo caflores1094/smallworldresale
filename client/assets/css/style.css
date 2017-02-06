@@ -197,7 +197,8 @@ header {
 }
 
 #page-title-inner {
-	background: rgba(153,204,102, 0.9);
+	background: rgba(136,207,235, 0.9);
+	/*background: #86ceeb;*/
 	-webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
 	-moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
 	box-shadow: inset 0px 0px 5px rgba(0,0,0,.25);
@@ -1585,6 +1586,17 @@ form#newsletter input[type=submit] {
 #instafeed a img{
 	width: 23%;
 	padding: 0px 1% 2% 1%;
+}
+
+#learn-more{
+	background-color: #6ec8ef;
+}
+
+#load-more{
+	float: right;
+	background-color: #6ec8ef;
+	border-radius: 5px;
+	color: #fff;
 }
 
 
