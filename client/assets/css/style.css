@@ -1164,7 +1164,7 @@ a.buy:hover {
 	background: url(../img/bg-k10.png) repeat;
 	border-bottom: 4px solid #f6f6f6;
 	color: #666 !important;
-	padding: 40px 0px;
+	padding: 0;
 	z-index: 1;
 	position: relative;
 	opacity: 1;
@@ -1183,10 +1183,11 @@ a.buy:hover {
 .no-margin {margin-top: 0;}
 
 #footer h3 {
-	padding: 2px 0px !important;
+	padding: 2px 106px 0 0 !important;
 	margin-bottom: 10px;
 	color: #666;
 	border-bottom: 5px double #f6f6f6;
+	text-align: right;
 }
 
 /* Newsletter Form
@@ -1497,7 +1498,6 @@ form#newsletter input[type=submit] {
 	}
 	
 	#footer {
-
 	}
 	
 	.flexslider.home {
@@ -1599,6 +1599,9 @@ form#newsletter input[type=submit] {
 	color: #fff;
 }
 
+.social-grid{
+	text-align: right;
+}
 
 
 
