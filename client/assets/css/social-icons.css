@@ -599,6 +599,19 @@
 	background: #3b5998 url(../img/icons/social_big/facebook_white.png) no-repeat;
 }
 
+.social-instagram { 
+	background: #f6f6f6 url(../img/icons/social_big/instagram_grey.png) no-repeat;
+}
+.social-instagram-hover { 
+	background: url(../img/icons/social_big/instagram_gradient.jpeg) no-repeat;
+}
+.social-yelp { 
+	background: #f6f6f6 url(../img/icons/social_big/yelp_grey.png) no-repeat;
+}
+.social-yelp-hover { 
+	background: #c41200 url(../img/icons/social_big/yelp_white.png) no-repeat;
+}
+
 .social-flickr { 
 	background: #f6f6f6 url(../img/icons/social_big/flickr_grey.png) no-repeat;
 }
