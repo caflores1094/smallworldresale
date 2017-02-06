@@ -4,15 +4,15 @@ jQuery(document).ready(function($){
 
 	$('.clients-carousel').flexslider({
 	    animation: "slide",
-		easing: "swing",
+			easing: "swing",
 	    animationLoop: true,
 	    itemWidth: 188,
 	    itemMargin: 0,
 	    minItems: 1,
 	    maxItems: 5,
-		controlNav: false,
-		directionNav: false,
-		move: 1
+			controlNav: false,
+			directionNav: false,
+			move: 1
       });
 
 
@@ -76,7 +76,7 @@ jQuery(document).ready(function($){
 	
 	$('#da-slider').cslider({
 		autoplay	: true,
-		bgincrement	: 450
+		bgincrement	: 50
 	});
 
 });
