@@ -1639,6 +1639,17 @@ form#newsletter input[type=submit] {
 	box-shadow: 1px 1px 7px 0px rgba(145,145,145,1);
 }
 
+.yo{
+	float: left !important;
+	font-size: 8px;
+	color: #f2f2f2 !important;
+}
+
+.yo a{
+	font-size: 8px;
+	color: #f2f2f2 !important;
+}
+
 
 
 
