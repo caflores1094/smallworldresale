@@ -312,7 +312,7 @@ html[xmlns] .slides {display: block;}
 
 .flex-direction-nav .flex-prev:hover,
 .flex-direction-nav .flex-next:hover {
-	background-color:#72b626;
+	background-color:#6ec8ef;
 	opacity: 1;
 }
 
@@ -420,7 +420,7 @@ html[xmlns] .slides {display: block;}
 }
 
 .icons-box:hover {
-	background: #fcfcfc;
+	background: #f5faff;
 	border: 1px solid #f6f6f6;
 }
 
@@ -675,8 +675,8 @@ html[xmlns] .slides {display: block;}
 
 .mr-rotato-prev:hover,
 .mr-rotato-next:hover {
-	background-color: #72b626;
-	border-color: #72b626;
+	background-color: #6ec8ef;
+	border-color: #6ec8ef;
 }
 
 
@@ -1561,16 +1561,30 @@ form#newsletter input[type=submit] {
 .topNavBar {
     float: right;
     display: inline-block;
-    margin-top: 104px;	
+    text-align: center;
+    /*margin-top: 104px;	*/
 }
 
-.topNavBar p{
+.tagline {
+	/*color: #6ec8ef;*/
+	    /* color: #6ec8ef; */
+    color: #666;
+    /* opacity: 0.8; */
+    padding: 36px 0 36px 0;
+    margin: 0;
+    font-size: 25px;
+     font-family: "Helvetica Neue"; 
+    font-style: italic;
+}
+
+
+/*.topNavBar p{
 	padding: 20;
 	text-align: center;
 	width: 500px;
   background-color: lightblue;
   margin: 0;
-}
+}*/
 
 .followFooter {
 	margin-left: 50px;
@@ -1602,6 +1616,35 @@ form#newsletter input[type=submit] {
 .social-grid{
 	text-align: right;
 }
+
+.store-pics-div{
+	text-align: center;
+
+}
+
+.store-pic-entry{
+	margin: 0px 0px 20px 0px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #888;
+	font-family: "Boogaloo";
+
+}
+
+.store-pics{
+	width: 70%;
+	border-radius: 2px;
+	-webkit-box-shadow: 1px 1px 7px 0px rgba(145,145,145,1);
+	-moz-box-shadow: 1px 1px 7px 0px rgba(145,145,145,1);
+	box-shadow: 1px 1px 7px 0px rgba(145,145,145,1);
+}
+
+
+
+
+
+
+
 
 
 
