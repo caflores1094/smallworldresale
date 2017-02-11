@@ -9,5 +9,5 @@ app.use(express.static(__dirname + '/../client'));
 app.use('/', myRouter);
 
 app.listen(port, ()=>{
-  console.log(`Server listening on port ${port}`);
+  // console.log(`Server listening on port ${port}`);
 });
