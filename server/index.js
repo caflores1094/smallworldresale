@@ -2,7 +2,7 @@ var express = require('express');
 var myRouter = require('./routes.js');
 
 var app = express();
-var port = process.env.PORT || 80;
+var port = 80; //process.env.PORT || 80;
 
 app.use(express.static(__dirname + '/../client'));
 
