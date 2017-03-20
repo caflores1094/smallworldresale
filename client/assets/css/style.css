@@ -1590,6 +1590,12 @@ form#newsletter input[type=submit] {
 	margin-left: 50px;
 }
 
+.insta-instructions {
+	padding: 0 0 25px 1%;
+	font-size: 15px;
+	margin: 0;
+}
+
 #instafeed {
 	text-align: left;
 }
@@ -1648,6 +1654,15 @@ form#newsletter input[type=submit] {
 .yo a{
 	font-size: 8px;
 	color: #f2f2f2 !important;
+}
+
+/*
+---------------------------------------------
+Images for slider
+---------------------------------------------
+*/
+.height-img {
+	height: 84%;
 }
 
 
