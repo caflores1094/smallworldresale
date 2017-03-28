@@ -19,8 +19,9 @@ Make sure that you have Node installed
 ## Built With
 
 * HTML
-* CSS in combination with Bootstrap
-* JS including JQuery
+* CSS: Some bootstrap
+* JS: JQuery, Instafeed.js
+* Node-Express server
 
 ## Authors
 
