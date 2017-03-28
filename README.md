@@ -2,7 +2,9 @@
 
 This is a website for a local Los Angeles small business: Small World Children’s Resale Boutique.
 
-Checkout the deployed site: SmallWorldResale.com
+Checkout the deployed site: [smallworldresale.com](http://smallworldresale.com)
+
+(Content is still under construction according to client's wishes)
 
 ## Getting Started
 
@@ -22,4 +24,4 @@ Make sure that you have Node installed
 
 ## Authors
 
-* **Carlos Flores** - *Sole Developer* - [CarlosAlbertoFlores](https://carlosalbertoflores.com)
+* **Carlos Flores** - *Sole Developer* - [Carlos Alberto Flores](http://carlosalbertoflores.com)
