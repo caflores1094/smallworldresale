@@ -9,8 +9,8 @@ Checkout the deployed site: [smallworldresale.com](http://smallworldresale.com)
 ## Getting Started
 
 Clone the repo onto your own machine
-npm install
-npm start
+* npm install
+* npm start
 
 ### Prerequisites
 
