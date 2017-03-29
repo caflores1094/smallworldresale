@@ -1168,20 +1168,11 @@ a.buy:hover {
 
 #footer-menu-back-to-top a:hover {background-color: #aaa;}
 
-#footer {
-	background: url(../img/bg-k10.png) repeat;
-	border-bottom: 4px solid #f6f6f6;
-	color: #666 !important;
-	padding: 0;
-	z-index: 1;
-	position: relative;
-	opacity: 1;
-}
 
 #footer, 
 #footer p, 
 #footer a{ 
-	color: #666 !important;
+	/*color: #666 !important;*/
 }
 
 #footer a:hover {
@@ -1193,9 +1184,24 @@ a.buy:hover {
 #footer h3 {
 	padding: 2px 106px 0 0 !important;
 	margin-bottom: 10px;
-	color: #666;
+	/*color: #666;*/
 	border-bottom: 5px double #f6f6f6;
 	text-align: right;
+}
+
+
+#footer {
+	/*background: url(../img/bg-k10.png) repeat;*/
+	background-color: #7eccef;
+	border-bottom: 4px solid #f6f6f6;
+	color: #666 !important;
+	padding: 0;
+	z-index: 1;
+	position: relative;
+	opacity: 1;
+}
+.followFooter {
+	color: #fff;
 }
 
 /* Newsletter Form
@@ -1594,9 +1600,6 @@ form#newsletter input[type=submit] {
   margin: 0;
 }*/
 
-.followFooter {
-	margin-left: 50px;
-}
 
 .insta-instructions {
 	padding: 0 0 25px 1%;

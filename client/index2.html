@@ -5,9 +5,8 @@
 	<!-- start: Meta -->
 	<meta charset="utf-8">
 	<title>Small World Children's Resale Boutique</title> 
-	<meta name="description" content="GotYa Free Bootstrap Theme"/>
-	<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
-	<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
+	<meta name="description" content="Small World Children's Resale Boutique Website"/>
+	<meta name="keywords" content="Baby, Boutique, Children, Resale, local" />
 	<!-- end: Meta -->
 	
 	<!-- start: Mobile Specific -->
@@ -57,11 +56,10 @@
 				</div>
 				<!--end: Logo -->
 					
-			<!--start: Navigation -->
-<!-- 				<div class ="topbar"><p>SOME OTHER CONTENT HERE PERHAPS</p></div> -->
+				<!--start: Navigation -->
 				<div class="span8 topNavBar">
 					
-					<p class="tagline">Baby Resale Boutique & Consignment</p>
+					<p class="tagline">Baby Resale Boutique</p>
 					<div class="navbar navbar-inverse">
 			    		<div class="navbar-inner">
 			          		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -71,9 +69,9 @@
 			          		</a>
 			          		<div class="nav-collapse collapse">
 			            		<ul class="nav">
-			              			<li><a href="/">Home</a></li>
+			              			<li class="active"><a href="/">Home</a></li>
 													<li><a href="/inventory">Inventory</a></li>
-													<li class="active"><a href="/services">Services</a></li>
+													<li><a href="/services">Services</a></li>
 			              			<li><a href="/about">About</a></li>
 			              			<li><a href="/contact">Contact</a></li>
 			              			 
@@ -94,99 +92,114 @@
 	</header>
 	<!--end: Header-->
 	
-	<!-- start: Page Title -->
-	<div id="page-title">
+<!-- SLIDER TIME INTERVAL IS IN JQUERY.CSLIDER.JS -->
 
-		<div id="page-title-inner">
 
-			<!-- start: Container -->
-			<div class="container">
+	<!-- start: Slider -->
+	<div class="slider-wrapper">
 
-				<h2><i class="ico-settings ico-white"></i>Services</h2>
-
+		<div id="da-slider" class="da-slider">
+			<div class="da-slide">
+				<h2>Twitter Bootstrap</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<a href="#" class="da-link">Read more</a>
+				<div class="da-img"><img class='height-img' src="assets/img/storePics/counter.jpg" alt="image01" /></div>
 			</div>
-			<!-- end: Container  -->
-
-		</div>	
-
+			<div class="da-slide">
+				<h2>Responsive Design</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<a href="#" class="da-link">Read more</a>
+				<div class="da-img"><img class='height-img' src="assets/img/storePics/blueStore.jpg" alt="image02" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>HTML5</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<a href="#" class="da-link">Read more</a>
+				<div class="da-img"><img class='height-img' src="assets/img/storePics/juliana.jpg" alt="image03" /></div>
+			</div>
+			<div class="da-slide">
+				<h2>CSS3</h2>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+				<a href="#" class="da-link">Read more</a>
+				<div class="da-img"><img class='height-img' src="assets/img/storePics/shopSmall.jpg" alt="image04" /></div>
+			</div>
+			
+			<nav class="da-arrows">
+				<span class="da-arrows-prev"></span>
+				<span class="da-arrows-next"></span>
+			</nav>
+		</div>
+		
 	</div>
-	<!-- end: Page Title -->
-	
+	<!-- end: Slider -->
+			
 	<!--start: Wrapper-->
 	<div id="wrapper">
 				
 		<!--start: Container -->
     	<div class="container">
 	
+      		<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
+      		<div class="hero-unit">
+        		<!-- <p>
+							"Maybe a quote from satisfied customer here from yelp? Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+						</p> -->
+						<p style="font-size: 25px">
+							New & pre-loved baby gear & much more!
+						</p>
+        		<p><a id="learn-more" href="/about" class="btn btn-success btn-large">Learn more &raquo;</a></p>
+      		</div>
+			<!-- end: Hero Unit -->
+
       		<!-- start: Row -->
       		<div class="row">
 	
-        		<div class="span6">
-          			<div class="icons-box">
-						<i class="ico-shopping-cart circle-color big"></i>
-						<div class="title"><h3>Shop</h3></div>
-						<p>
-							Come in and check out our amazing selection of high end baby items at great prices!
-						</p>
-						<div class="clear"></div>
-					</div>
+        		<div class="span4">
+	          	<a href="/inventory">
+			        	<div class="icons-box">
+										<i class="ico-stroller circle-color big"></i>
+										<div class="title"><h3>Browse Our Selection</h3></div>
+										<div class="clear"></div>
+								</div>
+							</a>
         		</div>
 
-        		<div class="span6">
-          			<div class="icons-box">
-						<i class="ico-usd circle-color big"></i>
-						<div class="title"><h3>Sell</h3></div>
-						<p>
-							Sell us your baby items that your baby has outgrown and check out any item(s) we may have that they have grown into. You may text (310) 902-1628 a picture of your item(s), include brand, model and year, (we only accept recent & like new items). We will get back to you with a response and if we are buying your item(s), we will schedule you to bring your items in.
-						</p>
-						<div class="clear"></div>
-					</div>
+        		<div class="span4">
+        			<a href="/services">
+	        			<div class="icons-box">
+									<i class="ico-credit circle-color big"></i>
+									<div class="title"><h3>Sell Us Your Items</h3></div>
+									<div class="clear"></div>
+								</div>
+							</a>
         		</div>
 
-        		
-        		<div class="span6">
+        		<div class="span4">
+        			<a href="/contact">
           			<div class="icons-box">
-						<i class="ico-cargo circle-color big"></i>
-						<div class="title"><h3>Delivery</h3></div>
-						<p>
-							We offer local delivery for a fee.
-						</p>
-						<div class="clear"></div>
-					</div>
+									<i class="ico-imac circle-color big"></i>
+									<div class="title"><h3>Join Our Wishlist</h3></div>
+									<div class="clear"></div>
+								</div>
+							</a>
         		</div>
-
-        		<div class="span6">
-          			<div class="icons-box">
-						<i class="ico-phone circle-color big"></i>
-						<div class="title"><h3>Things To Know</h3></div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clear"></div>
-					</div>
-        		</div>
-
-
 
       		</div>
 			<!-- end: Row -->
-      	
+			
 		</div>
 		<!--end: Container-->
-				
+	
 	</div>
 	<!-- end: Wrapper  -->			
 
-    <!-- start: Footer Menu -->
-	<div id="footer-menu" class="hidden-tablet hidden-phone">
+   <!-- start: Footer Menu -->
+	<!-- <div id="footer-menu" class="hidden-tablet hidden-phone">
 
-		<!-- start: Container -->
 		<div class="container">
 			
-			<!-- start: Row -->
 			<div class="row">
 
-				<!-- start: Footer Menu Links-->
 				<div class="span12">
 					
 					<div id="footer-menu-links">
@@ -208,15 +221,12 @@
 					</div>
 					
 				</div>
-				<!-- end: Footer Menu Links-->
 			
 			</div>
-			<!-- end: Row -->
 			
 		</div>
-		<!-- end: Container  -->	
 
-	</div>	
+	</div>	 -->
 	<!-- end: Footer Menu -->
 
 	<!-- start: Footer -->
@@ -228,11 +238,53 @@
 			<!-- start: Row -->
 			<div class="row">
 
-				<div class="span8"></div>
+				<div class="span8">
+					   <!-- start: Footer Menu -->
+						<div class="hidden-tablet hidden-phone">
+
+							<!-- start: Container -->
+							<div class="container">
+								
+								<!-- start: Row -->
+								<div class="row">
+
+									<!-- start: Footer Menu Links-->
+									<div class="span12">
+										
+										<div id="footer-links">
+
+											<ul id="footer-nav">
+
+												<li><a href="/">Home</a></li>
+
+												<li><a href="/about">About</a></li>
+
+												<li><a href="/services">Services</a></li>
+
+												<li><a href="/inventory">Inventory</a></li>
+												
+												<li><a href="/contact">Contact</a></li>
+
+											</ul>
+
+										</div>
+										
+									</div>
+									<!-- end: Footer Menu Links-->
+								
+								</div>
+								<!-- end: Row -->
+								
+							</div>
+							<!-- end: Container  -->	
+
+						</div>	
+						<!-- end: Footer Menu -->
+				</div>
 				<div class="span4">
 				
 					<!-- start: Follow Us -->
-					<h3 class="followFooterf">Follow Us!</h3>
+					<h3 class="followFooter">Follow Us!</h3>
 						<ul class="social-grid">
 						<li>
 							<div class="social-item">				
@@ -279,15 +331,6 @@
 					</ul>
 					<!-- end: Follow Us -->
 				
-					<!-- start: Newsletter -->
-					<!-- <form id="newsletter">
-						<h3>Newsletter</h3>
-						<p>Please leave us your email</p>
-						<label for="newsletter_input">@:</label>
-						<input type="text" id="newsletter_input"/>
-						<input type="submit" id="newsletter_submit" value="submit">
-					</form> -->
-					<!-- end: Newsletter -->
 				
 				</div>
 				
@@ -299,11 +342,6 @@
 
 	</div>
 	<!-- end: Footer -->
-
-	<!-- start: Copyright -->
-	<div id="copyright">
-	
-		<!-- end: Footer -->
 
 	<!-- start: Copyright -->
 	<div id="copyright">
@@ -329,7 +367,7 @@
 <script src="assets/js/carousel.js"></script>
 <script src="assets/js/jquery.cslider.js"></script>
 <script src="assets/js/slider.js"></script>
-<script def src="assets/js/custom.js"></script>
+<script defer="defer" src="assets/js/custom.js"></script>
 <!-- end: Java Script -->
 
 </body>
