@@ -9,6 +9,10 @@
     font-style: normal;
 }
 
+.da-slide img{
+	border-radius: 5px;
+}
+
 .da-slider{
 	width: 100%;
 	height: 400px;

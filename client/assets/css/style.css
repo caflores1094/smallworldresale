@@ -1690,8 +1690,37 @@ Images for slider
 .height-img {
 	height: 84%;
 }
+/*
+---------------------------------------------
+Email Form 
+---------------------------------------------
+*/
 
+.input-xlarge {
+	width: 90%;
+}
 
+.input input{
+	width: 50%;
+}
+
+.contact-info h4{
+	margin-bottom: 10px;
+	letter-spacing: 1.2px;
+}
+
+.contact-info p{
+	margin-bottom: 5px;
+}
+
+.contact-section{
+	margin-bottom: 40px;
+}
+
+#contact-form button{
+	font-family: "Droid Sans";
+	color: #505050;
+}
 
 
 
