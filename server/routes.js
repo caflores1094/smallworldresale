@@ -26,10 +26,10 @@ router.get('/contact', (req, res) => {
 router.post('/send_email', (req, res) => {
 
   var emailData = req.body;
-  
+
   emailRobot.sendEmail(emailRobot.transporter, emailData);
 
-  res.send(200);
+  res.sendStatus(200);
 });
 
 module.exports = router;

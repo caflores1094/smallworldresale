@@ -10,14 +10,16 @@ let transporter = nodemailer.createTransport({
 });
 
 var sendEmail = function(trans, emailData){
-    // setup email data 
-    // make sure to send it to both the client and the email sender
+    //prepare the message to reflect relevant return carriages
     var emailMessage = emailData.message.replace(/(?:\r\n|\r|\n)/g, '<br />');
 
+
+    // setup email data 
+    // make sure to send it to both the client and the email sender
     let mailOptions = {
         from: emailData.name + ' <' + emailData.email + '>', // sender address
-        to: 'caflores1094@gmail.com, ' + emailData.email, // list of receivers
-        subject: 'Request To Join Wishlist', // Subject line
+        to: 'smallworldemailer@gmail.com, ' + emailData.email, // list of receivers
+        subject: 'Interested in Small World Children Resale Boutique', // Subject line
         html: emailMessage // html body
     };
 
