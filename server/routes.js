@@ -25,6 +25,7 @@ router.get('/contact', (req, res) => {
 
 router.post('/send_email', (req, res) => {
 
+  console.log('in send_email')
   var emailData = req.body;
 
   emailRobot.sendEmail(emailRobot.transporter, emailData);
