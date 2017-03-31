@@ -1,20 +1,35 @@
 jQuery(document).ready(function($){
+
+	/* ------------------ Email Form submission ------------------*/
+
+	$('#email-form').submit(function (e) {
+	 //action to perform here
+	 // action="/send_email"
+	 event.preventDefault();
+	 var formValArr =  $( this ).serializeArray();
+
+	 var dataObject = {
+	 		name: formValArr[0].value,
+	 		email: formValArr[1].value,
+	 		message: formValArr[2].value
+	 };
+
+	 //send an email with these values
+	 $.ajax({
+	   type: "POST",
+	   url: '/send_email',
+	   data: dataObject,
+	   success: function(data, textStatus, jqXHR){
+	   	console.log('Successfully sent an email!')
+	   },
+	   error: function(jqXHR, textStatus, errorThrown){
+	   	console.log('ERROR Sending Email', jqXHR, errorThrown);
+	   }
+	 });
+
+
+	});
 	
-	/* ------------------- Client Carousel --------------------- */
-
-	$('.clients-carousel').flexslider({
-	    animation: "slide",
-			easing: "swing",
-	    animationLoop: true,
-	    itemWidth: 188,
-	    itemMargin: 0,
-	    minItems: 1,
-	    maxItems: 5,
-			controlNav: false,
-			directionNav: false,
-			move: 1
-      });
-
 
 	/* ------------------ Back To Top ------------------- */
 
@@ -22,18 +37,7 @@ jQuery(document).ready(function($){
 		jQuery('html, body').animate({scrollTop:0}, 300); 
 		return false; 
 	});
-	
-	/* ------------------ Progress Bar ------------------- */	
-	$(function() {
-		$(".meter > span").each(function() {
-			$(this)
-			.data("origWidth", $(this).width())
-			.width(0)
-			.animate({
-				width: $(this).data("origWidth")
-			}, 1200);
-		});
-	});
+
 
 	/* --------------------- Tabs ------------------------ */	
 

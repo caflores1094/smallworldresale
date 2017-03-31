@@ -581,6 +581,11 @@ html[xmlns] .slides {display: block;}
 
 /* About
 =================================================================== */
+
+#about p{
+	font-size: 18px;
+	line-height: 28px;
+}
 .team-name {
 	padding: 15px 0;
 	border-bottom: 1px solid #e9e9e9;
@@ -1591,15 +1596,14 @@ form#newsletter input[type=submit] {
 }
 
 .tagline {
-	/*color: #6ec8ef;*/
-	    /* color: #6ec8ef; */
-    color: #666;
-    /* opacity: 0.8; */
+    /*color: #666;*/
+    color: #7dbd68;
     padding: 41px 0 41px 0;
     margin: 0;
-    font-size: 39px;
-    font-family: "Butterfly Kids", "Sofia", "Helvetica Neue";
+    font-size: 38px;
+    font-family: "Boogaloo","Butterfly Kids", "Sofia", "Helvetica Neue";
     letter-spacing: 2px;
+    /*font-weight: 600;*/
 }
 
 

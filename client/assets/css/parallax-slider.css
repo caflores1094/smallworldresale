@@ -792,6 +792,9 @@
 	.da-slide .da-img{
 		display: none;
 	}
+	.da-slide .da-img{
+		display: none;
+	}
 	.da-slide .da-link{
 		top: 200px; /*depends on p height*/
 	}
@@ -828,8 +831,9 @@
 	
 	.da-slide h2{
 		font-size: 36px;
-		width: 60%;
+		/*width: 60%;*/
 		top: 20px;
+		/*border: 1px solid black;*/
 	}
 	
 	.da-slide p{
@@ -838,6 +842,21 @@
 		font-size: 16px;
 	}
 	.da-slide .da-img{
+		/*display: none;*/
+	}
+	.da-link{
+		display: none;
+	}
+	.da-slide img{
+		margin-top: 17%;
+		height: 57%;
+		width: auto;
+		max-width: none;
+		margin-left: -141%;
+		vertical-align: top;
+		border-radius: 5px;
+	}
+	.da-slide p{
 		display: none;
 	}
 	.da-slide .da-link{
@@ -849,7 +868,7 @@
 		position: absolute;
 		text-align: center;
 		left: 0px;
-		bottom: 20px;
+		bottom: 2px;
 		z-index: 2000;
 		-moz-user-select: none;
 		-webkit-user-select: none;
