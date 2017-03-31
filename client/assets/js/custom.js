@@ -1,7 +1,6 @@
 jQuery(document).ready(function($){
 
 	/* ------------------ Email Form submission ------------------*/
-
 	$('#email-form').submit(function (e) {
 	 //action to perform here
 	 // action="/send_email"
@@ -26,6 +25,8 @@ jQuery(document).ready(function($){
 	   	console.log('ERROR Sending Email', jqXHR, errorThrown);
 	   }
 	 });
+
+	 $('#email-form')[0].reset();
 
 
 	});
