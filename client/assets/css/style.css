@@ -1583,6 +1583,10 @@ form#newsletter input[type=submit] {
 						MY EXTRA STYLES
 ============================================================================================
 */
+
+#footer {
+	margin-top: 20px;
+}
 .logo {
 	max-width: 160px;
 	display: inline-block
@@ -1721,9 +1725,6 @@ Email Form
 	font-family: "Droid Sans";
 	color: #505050;
 }
-
-
-
 
 
 
