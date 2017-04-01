@@ -1568,6 +1568,10 @@ form#newsletter input[type=submit] {
 		min-height: 64px;
 	}
 
+	.events .title{
+		margin-bottom: 20px;
+	}
+
 	.single-event img{
 		width: 100%;
 		margin-top: 10px;
