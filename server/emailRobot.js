@@ -19,6 +19,7 @@ var sendEmail = function(trans, emailData){
     let mailOptions = {
         from: emailData.name + ' <' + emailData.email + '>', // sender address
         to: 'smallworldemailer@gmail.com, ',// + emailData.email, // list of receivers
+        cc: emailData.email,
         subject: 'Interested in Small World Children Resale Boutique', // Subject line
         html: emailMessage // html body
     };
