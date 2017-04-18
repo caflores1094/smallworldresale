@@ -38,7 +38,7 @@ var sendEmail = function(trans, emailData){
                             Boutique! Keep an eye out for our response. Below is a copy \
                             of what you sent us.<br /><br /> \
                             <i>";
-    var secondMessage = toCustomerIntro + emailMessage + "</i></p>"
+    var secondMessage = toCustomerIntro + "<hr> <BLOCKQUOTE>" + emailMessage + "<BLOCKQUOTE>" + "</i></p>"
     let mailOptions2 = {
         from: 'SmallWorldChildrensResale' + ' <smallworldemailer@gmail.com>', // sender address
         to: emailData.email, // list of receivers
