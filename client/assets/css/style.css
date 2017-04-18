@@ -1743,10 +1743,15 @@ Email Form
 
 .contact-info p{
 	margin-bottom: 5px;
+	font-size: 13px;
 }
 
-.contact-section{
-	margin-bottom: 40px;
+.contact-sections div{
+	margin-bottom: 20px;
+}
+
+.contact-sections div:last-of-type{
+	margin-bottom: 0;
 }
 
 #contact-form button{
